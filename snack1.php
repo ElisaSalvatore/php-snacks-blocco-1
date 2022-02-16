@@ -49,7 +49,7 @@ Stampiamo a schermo tutte le partite con questo schema. Olimpia Milano - Cantù 
         echo $partite[$i]["squadraCasa"] ." - ". 
         $partite[$i]["squadraOspite"] ." | ". 
         $partite[$i]["punteggioCasa"] ."-". 
-        $partite[$i]["punteggioOspite"];
+        $partite[$i]["punteggioOspite"] . "<br>";
     }
 
 ?>
